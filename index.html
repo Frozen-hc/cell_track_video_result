@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>基于深度学习的神经细胞追踪技术研究</title>
+  </head>
+  <script src="jquery-2.1.1.js" type="text/javascript"></script>
+  <style>
+    .video-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .inner-container {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 960px;
+      margin: 0 auto;
+    }
+
+    .col {
+      float: left;
+      width: 33%;
+      box-sizing: border-box;
+      padding: 20px;
+    }
+
+    .clear {
+      clear: both;
+    }
+    .max {
+      width: 100%;
+      height: auto;
+    }
+    .min {
+      width: 100px;
+      height: auto;
+    }
+  </style>
+
+  <body>
+    <div display="flex" flex-direction="row">
+      <div class="video-container col">
+        <text style="font-size: 48px; padding-bottom: 10cm"
+          >基于深度学习的神经细胞追踪技术研究<br />--------------实验结果</text
+        >
+        <text style="padding-bottom: 0.5cm">输入视频</text>
+        <iframe
+          src="//player.bilibili.com/player.html?aid=656039436&bvid=BV1ua4y137nA&cid=1128388351&page=1"
+          scrolling="no"
+          border="0"
+          frameborder="no"
+          framespacing="0"
+          allowfullscreen="true"
+          width="430px"
+          height="323px"
+        >
+        </iframe>
+        <!-- <video
+          src="https://github.com/Frozen-hc/Frozen-hc.github.io/blob/main/cell_0.mp4"
+          controls="controls"
+          width="430px"
+          height="323px"
+          autoplay="autoplay"
+          loop="loop"
+        ></video> -->
+      </div>
+      <div class="video-container col">
+        <div class="inner-container" style="padding-bottom: 0.2cm">
+          <text style="padding-right: 0.5cm; writing-mode: tb-rl">
+            (a1) Faster R-CNN + DeepSORT
+          </text>
+          <iframe
+            src="//player.bilibili.com/player.html?aid=613507979&bvid=BV1Yh4y1b75P&cid=1128388105&page=1"
+            scrolling="no"
+            border="0"
+            frameborder="no"
+            framespacing="0"
+            allowfullscreen="true"
+            width="430px"
+            height="323px"
+          >
+          </iframe>
+
+          <!-- <video
+            src="https://github.com/Frozen-hc/Frozen-hc.github.io/blob/main/cell_a1.mp4"
+            controls="controls"
+            width="430px"
+            height="323px"
+            autoplay="autoplay"
+            loop="loop"
+          ></video> -->
+        </div>
+        <div class="inner-container" style="padding-bottom: 0.2cm">
+          <text style="padding-right: 0.5cm; writing-mode: tb-rl">
+            (b1) Mask R-CNN + DeepSORT
+          </text>
+          <iframe
+            src="//player.bilibili.com/player.html?aid=613611540&bvid=BV1Ah4y187XV&cid=1128386926&page=1"
+            scrolling="no"
+            border="0"
+            frameborder="no"
+            framespacing="0"
+            allowfullscreen="true"
+            width="430px"
+            height="323px"
+          >
+          </iframe>
+
+          <!-- <video
+            src="https://github.com/Frozen-hc/Frozen-hc.github.io/blob/main/cell_b1.mp4"
+            controls="controls"
+            width="430px"
+            height="323px"
+            autoplay="autoplay"
+            loop="loop"
+          ></video> -->
+        </div>
+        <div class="inner-container" style="padding-bottom: 0.2cm">
+          <text style="padding-right: 0.5cm; writing-mode: tb-rl">
+            (c1) YOLOV5s + DeepSORT
+          </text>
+          <iframe
+            src="//player.bilibili.com/player.html?aid=398590069&bvid=BV1Do4y1V7VF&cid=1128385098&page=1"
+            scrolling="no"
+            border="0"
+            frameborder="no"
+            framespacing="0"
+            allowfullscreen="true"
+            width="430px"
+            height="323px"
+          >
+          </iframe>
+        </div>
+      </div>
+      <div class="video-container col">
+        <div class="inner-container" style="padding-bottom: 0.2cm">
+          <text style="padding-right: 0.5cm; writing-mode: tb-rl">
+            (a2) Faster R-CNN + ByteTrack </text
+          ><iframe
+            src="//player.bilibili.com/player.html?aid=571067883&bvid=BV1hz4y187ZF&cid=1128387533&page=1"
+            scrolling="no"
+            border="0"
+            frameborder="no"
+            framespacing="0"
+            allowfullscreen="true"
+            width="430px"
+            height="323px"
+          >
+          </iframe>
+
+          <!-- <video
+            src="https://github.com/Frozen-hc/Frozen-hc.github.io/blob/main/cell_a2.mp4"
+            controls="controls"
+            width="430px"
+            height="323px"
+            autoplay="autoplay"
+            loop="loop"
+          ></video> -->
+        </div>
+        <div class="inner-container" style="padding-bottom: 0.2cm">
+          <text style="padding-right: 0.5cm; writing-mode: tb-rl">
+            (b2) Mask R-CNN + ByteTrack
+          </text>
+          <iframe
+            src="//player.bilibili.com/player.html?aid=698590645&bvid=BV1Gm4y1a7nh&cid=1128386038&page=1"
+            scrolling="no"
+            border="0"
+            frameborder="no"
+            framespacing="0"
+            allowfullscreen="true"
+            width="430px"
+            height="323px"
+          >
+          </iframe>
+
+          <!-- <video
+            src="https://github.com/Frozen-hc/Frozen-hc.github.io/blob/main/cell_b2.mp4"
+            controls="controls"
+            width="430px"
+            height="323px"
+            autoplay="autoplay"
+            loop="loop"
+          ></video> -->
+        </div>
+        <div class="inner-container" style="padding-bottom: 0.2cm">
+          <text style="padding-right: 0.5cm; writing-mode: tb-rl">
+            (c2) YOLOV5s + ByteTrack
+          </text>
+          <iframe
+            src="//player.bilibili.com/player.html?aid=313504114&bvid=BV1PP41127Gx&cid=1128383864&page=1"
+            scrolling="no"
+            border="0"
+            frameborder="no"
+            framespacing="0"
+            allowfullscreen="true"
+            width="430px"
+            height="323px"
+          >
+          </iframe>
+
+          <!-- <video
+            src="https://github.com/Frozen-hc/Frozen-hc.github.io/blob/main/cell_c2.mp4"
+            controls="controls"
+            width="430px"
+            height="323px"
+            autoplay="autoplay"
+            loop="loop"
+          ></video> -->
+        </div>
+      </div>
+    </div>
+
+    <!-- <script>
+      var myVideo = document.getElementById("video1");
+
+      function playPause() {
+        if (myVideo.paused) myVideo.play();
+        else myVideo.pause();
+      }
+
+      function makeBig() {
+        myVideo.width = 560;
+      }
+
+      function makeSmall() {
+        myVideo.width = 320;
+      }
+
+      function makeNormal() {
+        myVideo.width = 420;
+      }
+    </script> -->
+  </body>
+</html>
